@@ -199,7 +199,6 @@ class MedicalTranscriptionPipeline:
 
 pipeline = MedicalTranscriptionPipeline()
 
-app = FastAPI()
 
 @app.get("/", tags=["Health"])
 async def health_check():
